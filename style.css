@@ -1,0 +1,110 @@
+html {
+    box-sizing: border-box;
+    
+}
+
+body {
+    height: 100vh;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    border-radius: 20px;
+}
+
+
+
+h1 {
+    size: 16px;
+    color: white;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    border: 2px dotted purple;
+    background-color: purple;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+li {
+    list-style: none;
+}
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid yellow;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    
+}
+
+li:hover {
+    color: blue;
+}
+
+
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+    background-color: green;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.aside-left {
+    margin: 5px;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+.aside-right {
+    margin: 5px;
+    padding: 5px;
+}
+
+
+
+main {
+    display: flex;
+    align-items: stretch;
+    
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid blue;
+    background-color: blue;
+    margin: 5px;
+    padding: 5px;
+}
+
+.stay-together {
+    display: flex;
+}
+
+.footer {
+    border: 2px solid pink;
+    background-color: pink;
+    margin: 5px;
+    margin-bottom: 0;
+    padding: 5px;
+    justify-content: center;
+}
